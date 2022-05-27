@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_slider_sliders",
+  "info": {
+    "name": "slider",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    }
+  }
+}

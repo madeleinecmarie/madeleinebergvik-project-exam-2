@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "hotels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "free_cancellation": {
+      "type": "boolean"
+    },
+    "stars": {
+      "type": "decimal"
+    },
+    "location": {
+      "type": "string"
+    },
+    "featured_img": {
+      "type": "string"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.slider"
+    },
+    "amenities": {
+      "type": "string"
+    },
+    "location_img": {
+      "type": "string"
+    },
+    "description_1": {
+      "type": "text"
+    },
+    "description_2": {
+      "type": "text"
+    },
+    "description_3": {
+      "type": "text"
+    },
+    "description_4": {
+      "type": "text"
+    },
+    "property_surroundings_1": {
+      "type": "text"
+    },
+    "property_surroundings_2": {
+      "type": "text"
+    },
+    "property_surroundings_3": {
+      "type": "text"
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reviews.reviews"
+    },
+    "free_wifi": {
+      "type": "boolean"
+    },
+    "queen_size_bed": {
+      "type": "boolean"
+    },
+    "non_smoking_rooms": {
+      "type": "boolean"
+    },
+    "parking": {
+      "type": "boolean"
+    },
+    "bar": {
+      "type": "boolean"
+    },
+    "pets_allowed": {
+      "type": "boolean"
+    },
+    "swimming_pool": {
+      "type": "boolean"
+    },
+    "shower_only": {
+      "type": "boolean"
+    },
+    "free_parking": {
+      "type": "boolean"
+    }
+  }
+}

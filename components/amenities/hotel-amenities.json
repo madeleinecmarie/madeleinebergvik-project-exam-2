@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_amenities_hotel_amenities",
+  "info": {
+    "name": "hotel_amenities",
+    "icon": "bath",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "free_wifi": {
+      "type": "boolean"
+    },
+    "queen_size_bed": {
+      "type": "boolean"
+    },
+    "non_smoking_rooms": {
+      "type": "boolean"
+    },
+    "parking": {
+      "type": "boolean"
+    },
+    "bar": {
+      "type": "boolean"
+    },
+    "pets_allowed": {
+      "type": "boolean"
+    },
+    "swimming_pool": {
+      "type": "boolean"
+    },
+    "shower_only": {
+      "type": "boolean"
+    },
+    "no_pets_allowed": {
+      "type": "boolean"
+    },
+    "free_parking": {
+      "type": "boolean"
+    }
+  }
+}

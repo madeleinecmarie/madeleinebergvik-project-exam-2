@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attractions",
+  "info": {
+    "name": "attractions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

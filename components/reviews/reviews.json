@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_reviews_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "hand-peace",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
